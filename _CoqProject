@@ -1,0 +1,10 @@
+-Q . pcf
+-arg -w -arg -ssr-search-moved
+
+prelude.v
+lang.v
+typed/model.v
+typed/logrel.v
+untyped/model.v
+untyped/logrel.v
+
