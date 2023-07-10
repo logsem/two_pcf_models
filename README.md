@@ -27,5 +27,5 @@ coq_makefile -f _CoqProject -o Makefile
 make -j 2
 ```
 
-[1]: "Strongly Typed Term Representations in Coq", N. Benton, C.-K. Hur, A. Kennedy, C. McBride, 2012
-[2]: "A Model of PCF in Guarded Type Theory", M. Paviotti, R. Møgelberg, L. Birkedal, 2015
+- [1]: "Strongly Typed Term Representations in Coq", N. Benton, C.-K. Hur, A. Kennedy, C. McBride, 2012
+- [2]: "A Model of PCF in Guarded Type Theory", M. Paviotti, R. Møgelberg, L. Birkedal, 2015
