@@ -21,11 +21,15 @@ The formalization is organized as follows:
   `untyped/logrel.v` contains the logical relation for adequacy
 - `prelude.v` contains some material that has been missing from Iris
 
+## Installation instructions
+
 To compile the source code, make sure that you have Iris and std++ installed, and then run:
 ```
 coq_makefile -f _CoqProject -o Makefile
 make -j 2
 ```
+
+## References
 
 - [1]: "Strongly Typed Term Representations in Coq", N. Benton, C.-K. Hur, A. Kennedy, C. McBride, 2012
 - [2]: "A Model of PCF in Guarded Type Theory", M. Paviotti, R. Møgelberg, L. Birkedal, 2015
