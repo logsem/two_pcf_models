@@ -23,11 +23,12 @@ The formalization is organized as follows:
 
 ## Installation instructions
 
-To compile the source code, make sure that you have Iris and std++ installed, and then run:
+To compile the source code, make sure that you have Iris, std++, and Equations installed, and then compile the project with `make`, for example:
 ```
-coq_makefile -f _CoqProject -o Makefile
+opam install . --deps-only
 make -j 2
 ```
+
 
 ## References
 

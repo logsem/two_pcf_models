@@ -1,0 +1,16 @@
+opam-version: "2.0"
+name: "coq-two-pcf-models"
+synopsis: "Two PCF models in guarded type theory in Iris"
+version: "dev"
+maintainer: "Dan Frumin <dan@groupoid.moe>"
+authors: "Dan Frumin <dan@groupoid.moe>"
+license: "BSD"
+build: [make "-j%{jobs}%"]
+install: [make "install"]
+remove: ["rm" "-rf" "%{lib}%/coq/user-contrib/two-pcf-models"]
+depends: [
+  "coq-equations" { (= "1.3+8.17") }
+  "coq-iris" { (= "dev.2023-06-30.0.7e865892") }
+  "coq-stdpp" { (= "dev.2023-06-01.0.d1254759") }
+  "coq" { (>= "8.17") | (= "dev") }
+]
